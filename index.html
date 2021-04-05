@@ -47,7 +47,7 @@
             } else {
               highlightLayer.setStyle({
                 fillColor: '#ffff00',
-                fillOpacity: 1
+                fillOpacity: .5
               });
             }
         }
@@ -79,7 +79,7 @@
         map.getPane('pane_OpenStreetMap_0').style.zIndex = 400;
         var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             pane: 'pane_OpenStreetMap_0',
-            opacity: 1.0,
+            opacity: 0.5,
             attribution: '',
             minZoom: 1,
             maxZoom: 28,
@@ -119,7 +119,7 @@
                 lineCap: 'square',
                 lineJoin: 'bevel',
                 weight: 1.0,
-                fillOpacity: 0,
+                fillOpacity: 1,
                 interactive: true,
             }
         }
@@ -168,7 +168,7 @@
                 lineCap: 'square',
                 lineJoin: 'bevel',
                 weight: 1.0,
-                fillOpacity: 0,
+                fillOpacity: 1,
                 interactive: true,
             }
         }
@@ -223,7 +223,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 1,
+                fillOpacity: 0.5,
                 fillColor: 'rgba(228,26,28,1.0)',
                 interactive: true,
             };
@@ -238,7 +238,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 1,
+                fillOpacity: 0.5,
                 fillColor: 'rgba(254,246,0,1.0)',
                 interactive: true,
             };
@@ -253,7 +253,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 1,
+                fillOpacity: 0.5,
                 fillColor: 'rgba(1,255,1,1.0)',
                 interactive: true,
             };
